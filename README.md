@@ -14,14 +14,16 @@ Summary: A collection of dimensionality reduction techniques from R packages and
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-dimred-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-dimred-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-dimred-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-dimred-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-dimred-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-dimred-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-dimred-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-dimred-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-dimred-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-dimred-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-dimred-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-dimred-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-dimred/badges/version.svg)](https://anaconda.org/conda-forge/r-dimred)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-dimred/badges/downloads.svg)](https://anaconda.org/conda-forge/r-dimred)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--dimred-green.svg)](https://anaconda.org/conda-forge/r-dimred) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-dimred.svg)](https://anaconda.org/conda-forge/r-dimred) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-dimred.svg)](https://anaconda.org/conda-forge/r-dimred) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-dimred.svg)](https://anaconda.org/conda-forge/r-dimred) |
 
 Installing r-dimred
 ===================
