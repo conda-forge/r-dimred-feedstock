@@ -14,9 +14,8 @@ Summary: A collection of dimensionality reduction techniques from R packages and
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-dimred-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-dimred-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-dimred-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-dimred-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-dimred-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-dimred-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-dimred-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-dimred-feedstock)
 
 Current release info
 ====================
