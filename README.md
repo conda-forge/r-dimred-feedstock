@@ -11,15 +11,16 @@ Package license: GPL-3
 
 Feedstock license: BSD 3-Clause
 
-Summary: A collection of dimensionality reduction techniques from R packages and provides a common interface for calling the methods.
+Summary: A collection of dimensionality reduction techniques from R packages and a common interface for calling the methods.
 
 
 
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-dimred-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-dimred-feedstock)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-dimred-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-dimred-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-dimred-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-dimred-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-dimred-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-dimred-feedstock/branch/master)
 
 Current release info
 ====================
@@ -113,10 +114,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
-* [@daler](https://github.com/daler/)
-* [@dbast](https://github.com/dbast/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
 
