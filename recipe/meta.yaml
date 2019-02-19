@@ -1,4 +1,4 @@
-{% set version = '0.1.0' %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dimRed_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dimRed/dimRed_{{ version }}.tar.gz
-  sha256: fb0cef7a21b8a5219c74e5227a282168599dd63e904130366f3d2fed8a625a39
+  sha256: 769b3a5a240c0a66ab853f7de370c2bd561199ef55fab17d53e706a0ff3ce41c
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1002
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
