@@ -42,7 +42,7 @@ test:
 
 about:
   home: https://github.com/gdkrmr/dimRed
-  license: GPL-3
+  license: GPL-3.0-only
   summary: A collection of dimensionality reduction techniques from R packages and a common interface
     for calling the methods.
   license_family: GPL3
