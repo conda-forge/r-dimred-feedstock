@@ -21,11 +21,11 @@ build:
 
 requirements:
   build:
-    - {{posix}}filesystem        # [win]
-    - {{posix}}make
-    - {{posix}}sed               # [win]
-    - {{posix}}coreutils         # [win]
-    - {{posix}}zip               # [win]
+    - {{ posix }}filesystem        # [win]
+    - {{ posix }}make
+    - {{ posix }}sed               # [win]
+    - {{ posix }}coreutils         # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-drr
@@ -42,7 +42,7 @@ test:
 
 about:
   home: https://github.com/gdkrmr/dimRed
-  license: GPL-3
+  license: GPL-3.0-only
   summary: A collection of dimensionality reduction techniques from R packages and a common interface
     for calling the methods.
   license_family: GPL3
