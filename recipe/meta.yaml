@@ -1,4 +1,4 @@
-{% set version = "0.2.5" %}
+{% set version = "0.2.6" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dimRed_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dimRed/dimRed_{{ version }}.tar.gz
-  sha256: ab043bcbac4636faadb81c0654cab58aeeec850fba3f8b7a749bea8a58c30efd
+  sha256: 9a7eb14781f01a12e26e7b26a91c8edaca7d824b9c1ffe74c81837098d9bf417
 
 build:
   merge_build_host: true  # [win]
@@ -26,6 +26,7 @@ requirements:
     - {{ posix }}sed               # [win]
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
+    - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
     - r-drr
@@ -45,7 +46,8 @@ about:
   license: GPL-3.0-only
   summary: A collection of dimensionality reduction techniques from R packages and a common interface for calling the methods.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
