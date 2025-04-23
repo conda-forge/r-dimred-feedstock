@@ -1,4 +1,4 @@
-{% set version = "0.2.6" %}
+{% set version = "0.2.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dimRed_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dimRed/dimRed_{{ version }}.tar.gz
-  sha256: 9a7eb14781f01a12e26e7b26a91c8edaca7d824b9c1ffe74c81837098d9bf417
+  sha256: aa6bb45d3a89112d8935563b0209bb5a8c45da55b1e933d9daaf178b99007dc7
 
 build:
-  number: 3
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
